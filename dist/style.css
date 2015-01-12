@@ -1,0 +1,306 @@
+.navbar-default{
+	background-color: #fff;
+	border-bottom: none;
+	transition: background-color 0.2s;
+	-webkit-transition: background-color 0.2s;
+}
+.navbar-scroll{
+	background-color: #2980b9; 
+	transition: background-color 0.2s;
+	-webkit-transition: background-color 0.2s;
+}
+.navbar-default .navbar-brand{
+	color: #2c3e50;
+	opacity: 0.7;
+	font-family: 'Pacifico', cursive;
+	font-size: 2.3em;
+	transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+}
+
+.navbar-default .navbar-brand:hover{
+	opacity: 1;
+}
+
+.navbar-default .navbar-nav li a{
+	color: #34495e;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav li:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+
+.arrow{
+  position: fixed;
+  background-color: #2980b9;
+  z-index: 1;
+  width: 4%;
+  margin-bottom: 60px;
+  bottom: 0px;
+  border-radius: 0px;
+  display: none;
+}
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 95vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 95vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 2px;
+    background-color: #16a085;
+    border-color: #34495e;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #080d15;
+    opacity: .4;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../img/3.jpg);
+  -webkit-filter: brightness(0.5);
+  -moz-filter: brightness(0.5);
+  filter:  brightness(0.5);
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(../img/7.jpg);
+  -webkit-filter: brightness(0.5);
+  -moz-filter: brightness(0.5);
+  filter:  brightness(0.5);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(../img/19.jpg);
+  -webkit-filter: brightness(0.5);
+  -moz-filter: brightness(0.5);
+  filter:  brightness(0.5);
+}
+
+.hero{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.hero h1{
+    text-decoration: underline;
+}
+
+.title h1 a{
+  color: #2c3e50;
+  font-family: 'Lobster', cursive;
+}
+.title h1 a:hover,
+.title h1 a:active{
+  text-decoration: none;
+}
+.title h4{
+  line-height: 35px;
+}
+
+.skill p{
+  font-size: 1.2em;
+}
+
+.progress-bar {
+    text-align: left;
+  white-space: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+  padding-left: 10px;
+}
+
+.progress-meter {
+  min-height: 15px;
+  border-bottom: 2px solid rgb(160, 160, 160);
+  margin-bottom: 15px;
+}
+
+.progress-meter > .meter {
+  position: relative;
+  float: left;
+  min-height: 15px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+  border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+  float: right;
+  border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+  border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+  position: absolute;
+  display: inline-block;
+  bottom: -20px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: rgb(160, 160, 160);
+  text-align: left;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+  text-align: right;
+}
+
+.photo a{
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.blog{
+  border: 1px solid #95a5a6;
+  border-radius: 10px;
+  border-left: 5px solid #95a5a6;
+}
+
+.blog a{
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.blog-pic{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.facebook a{
+  color: #3B5998;
+}
+.linkedin a{
+  color: #007bb6;
+}
+.twitter a{
+  color: #00aced;
+}
+.gplus a{
+  color: #c0392b;
+}
+.navbar-static-bottom{
+  margin-bottom: 0px;
+  border-radius:0px;
+}
+
+.fa-copyright{
+  color: #fff;
+  letter-spacing: 2px;
+}
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }  
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 3em; }
+    .navbar-static-bottom h3{font-size: 1.2em;} 
+}
