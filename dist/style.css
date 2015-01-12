@@ -7,7 +7,7 @@
 
 ::-webkit-scrollbar-thumb {
     background: #2980b9;
-    -webkit-border-radius: 1ex;
+    -webkit-border-radius: 0ex;
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
