@@ -2,6 +2,48 @@
 	margin-top: 20px;
 }
 
+.title{
+	color: white;
+	opacity: 1;
+}
+
+.tagline{
+	color: white;
+	opacity: 1;
+}
+
+.about_section{
+	margin-bottom: -100px;
+}
+
+.about_title{
+	font-size: 2.5em;
+}
+
+.about_section blockquote p{
+	color: white;
+}
+
+.about_section .section-text {
+	color: white;
+}
+
+.services_title{
+	font-size: 2.5em;
+}
+
+.services_section blockquote p{
+	color: black;
+	font-weight: normal;
+}
+
+.services_section .section-text {
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+}
+
+
 .main-nav{
 	min-height: 60px;
 }
