@@ -95,3 +95,22 @@
 		  opacity:1;
 		  -webkit-transform: scale(0.95);
 		}
+
+.footer{
+	background-image: url('../images/full-width-images/foot.jpg')
+}
+
+.copy a{
+	color: white;
+	opacity: 1;
+}
+
+.footer-made{
+	color: white;
+	opacity: 1;
+}
+
+.top_scroll a{
+	color: white;
+	opacity: .75;
+}
