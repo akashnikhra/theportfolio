@@ -114,3 +114,17 @@
 	color: white;
 	opacity: .75;
 }
+
+.pulseit{
+			-webkit-animation:pulse linear 0.9s infinite;
+			animation:pulse linear 0.9s infinite;
+		}
+		@-webkit-keyframes pulse{
+			0% {width:200px;}
+			50% {width:240px;}
+			100%{width:200px;}
+		}
+		@keyframes pulse{
+			0% {width:200px;}
+			50% {width:240px;}
+			100%{width:200px;}		}
